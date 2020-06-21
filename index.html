@@ -18,8 +18,8 @@
     <body id="home" class="scrollspy">
       
       <!-- navbar -->
-      <div class="nav-wrapper">
-        <nav class="blue lighten-2">
+      <div class="navbar-fixed">
+        <nav class="blue darken-2">
           <div class="container">
             <div class="nav-wrapper">
               <a href="#home" class="brand-logo"><i class="material-icons">record_voice_over</i>Web Developer</a>
@@ -274,11 +274,11 @@
             <div class="card-panel">
               <h5>Please fill out this form</h5>
               <div class="input-field">
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required="validate">
                 <label for="name">Name</label>
               </div>
               <div class="input-field">
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" class="validate">
                 <label for="email">Email</label>
               </div>
               <div class="input-field">
